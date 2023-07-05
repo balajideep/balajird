@@ -1,0 +1,342 @@
+.man{
+    
+    height: 220px;
+    width: 100%;
+    background-color: white;
+}
+
+.mg{
+    
+    
+    
+    padding-left: 38px;
+    padding-top: 30px;
+    
+}
+.mg h2{
+    color:#021E40;
+    font-size: 35px;
+}
+.mg1 h4{
+    color: #FA8D25;
+}
+
+.mmg{
+    padding-top: 75px;
+    padding-left: 40px;
+}
+.mmg1 p{
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #646974;
+}
+.mgg{
+    padding-top: 100px;
+    padding-left: 60px;
+
+}
+.Button3{
+   
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #FA8D25;
+}
+.Button3:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+    -webkit-transform: translateY(1px);
+	transform: translateY(-5px);
+}
+.carding img{
+    height: 350px;
+    border-radius: 20px;
+}
+.carding img:hover{
+    -webkit-transform: translateY(1px);
+	transform: translateY(-10px);
+}
+.carding{
+    border-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    
+}
+.cardre {
+    text-align: right;
+    line-height: 50px;
+    
+}
+ .carding p{
+    color: #646974;
+}
+.carding h5{
+    color: black;
+}
+.cardre a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #FA8D25;
+    font-weight: 100px;
+    font-family: sans-serif;
+
+}
+.related{
+    position: relative;
+}
+.obsolute{
+    position: absolute;
+    height: 51px;
+    width: 175px;
+    background-color: white;
+    bottom: 170px;
+    padding-top: 9px;
+    padding-left: 28px;
+    border-top-right-radius: 5px;
+}
+.cardrun:hover{
+    -webkit-transform: translateY(1px);
+	transform: translateY(-5px);
+}
+.tower{
+    
+    
+        position: relative;
+        animation-name: example6;
+        animation-duration:2s;
+        
+    }
+    @keyframes example6 {
+        from {bottom: -300px;}
+        to {bottom: 0px;}
+      } 
+
+
+ 
+ @media only screen and (max-width:1024px){
+    .mg{
+        padding-top: 0px;
+        padding-left: 20px;
+  }
+    .mmg{
+        padding-top: 45px;
+        padding-left: 15px;
+        
+    }
+    .mgg{
+        padding-top: 60px;
+        padding-left: 10px;
+    
+    }
+ .car{
+    width: 50%;
+ }
+ .carful{
+   
+    width: 100%;
+    padding-left: 0px;
+   
+ }
+  
+   
+ }
+ @media only screen and (max-width:768px){
+    .car{
+        width: 100%;
+        
+     }
+     .carful{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 25px;
+        
+     }
+ }
+ @media only screen and (max-width:994px){
+    
+      .man1{
+        object-fit: cover;
+        
+        background-color: #646974;
+     }  
+     .mg{
+        padding-top: 0px;
+        padding-left: 6px;
+  }
+    .mmg{
+        padding-top: 45px;
+        padding-left: 8px;
+        
+    }  
+   
+ }
+ 
+
+    @media only screen and (max-width:974px){
+    
+        .Button3{
+   
+            padding: 15px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-family: sans-serif;
+            color: white;
+            background-color: #FA8D25;
+        }
+    }
+@media only screen and (max-width:770px){
+    
+    
+    .man{
+    
+        height: 200px;
+        width: 100%;
+        background-color:white;
+    }
+  .mg{
+        padding-top: 30px;
+        padding-left: 5px;
+  }
+    .mmg{
+        padding-top: 75px;
+        padding-left: 5px;
+        
+    }
+    .mgg{
+        padding-top: 110px;
+        padding-left: 0px;
+    
+    }
+    .mg h2{
+        color:#021E40;
+        font-size: 24px;
+    }
+    
+    .mmg1 p{
+        
+        font-size: 14px;
+        font-family: sans-serif;
+        color: #646974;
+    }
+    .Button3{
+   
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-family: sans-serif;
+        color: white;
+        background-color: #FA8D25;
+    }
+  
+}
+
+
+
+
+
+@media only screen and (max-width:735px){
+    .man{
+    
+        height: 250px;
+        width: 100%;
+        background-color:white;
+    }
+}
+@media only screen and (max-width:648px){
+    .man{
+    
+        height: 270px;
+        width: 100%;
+        background-color:white;
+    }
+}
+@media only screen and (max-width:494px){
+    .man{
+    
+        height: 300px;
+        width: 100%;
+        background-color:white;
+    }
+}
+@media only screen and (max-width:660px){
+    .mg{
+        padding-top: 10px;
+        padding-left: 5px;
+  }
+    .mmg{
+        padding-top: 45px;
+        padding-left: 15px;
+        
+    }
+    .mgg{
+        padding-top: 60px;
+        padding-left: 10px;
+    
+    }
+ }
+ @media only screen and (max-width:437px){
+    .tower{
+    padding-top: 20px;
+    }
+ }
+@media only screen and (max-width:400px){
+    .man{
+    
+        height: 290px;
+        width: 100%;
+        background-color:white;
+    }
+}
+@media only screen and (max-width:388px){
+    .man{
+    
+        height: 300px;
+        width: 100%;
+        background-color:white;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:325px){
+   
+    .man{
+    
+        height: 320px;
+        width: 100%;
+        background-color:white;
+    }
+     .obsolute{
+        position: absolute;
+       
+        background-color: white;
+        bottom: 190px;
+       
+    } 
+}
+
+@media only screen and (max-width:767px){
+   
+    .mmg{
+        padding-top: 10px;
+        padding-left: 5px;
+        
+    }
+    .mgg{
+        padding-top: 10px;
+        padding-left: 0px;
+    
+    }
+    .man{
+        background-color: white;
+        height: 260px;
+    }
+   
+}

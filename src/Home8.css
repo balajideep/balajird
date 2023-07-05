@@ -1,0 +1,133 @@
+.subscribe-page{
+    /* padding-top: 60px; */
+}
+.subscribe{
+    background-image:url(./image/subscribe.jpeg) ;
+    height: 400px;
+    background-size: cover;
+}
+.sub-1 h2{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.container .sub-1{
+    width: 80%;
+    text-align: center;
+   
+}
+.sub-2{
+    width: 40%;
+    text-align: center;
+   
+}
+.sub-2 p{
+    font-size: 16px;
+    color: white;
+}
+
+.sub-3 input{
+    width: 60%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+ 
+    }
+.sub-3 button{
+    padding: 15px;
+    width: 180px;
+    border-radius: 30px;
+    color: white;
+    background-color: orange;
+    font-size: 15px;
+    border: none;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width:768px){
+    .subscribe-page{
+        padding-top: 30px;
+    } 
+    .sub-1 h2{
+        font-size: 24px;
+       
+    }
+    .sub-2 p{
+        font-size: 15px;
+        color: white;
+    }
+}
+@media only screen and (max-width:767px){
+   
+    .subscribe{
+        background-image:url(./image/subscribe.jpeg) ;
+        height: 430px;
+        background-size: cover;
+       
+    }
+    .sub-2{
+        width: 60%;
+        text-align: center;
+       
+    }
+    .sub-3 input{
+        width: 80%;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+     
+        }
+
+    .sub-3 button{
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 80%;
+    }    
+}
+@media only screen and (max-width:454px){
+    .sub-2{
+        width: 80%;
+        text-align: center;
+       
+    }
+    .subscribe{
+        background-image:url(./image/subscribe.jpeg) ;
+        height: 490px;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:574px){
+    .subscribe{
+        background-image:url(./image/subscribe.jpeg) ;
+        height: 460px;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:560px){
+    .sub-3 button{
+        padding: 15px;
+        width: 100%;
+        border-radius: 30px;
+        color: white;
+        background-color: orange;
+        font-weight: 20px;
+        border: none;
+       
+    }
+    .sub-3 input{
+        width: 100%;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+     
+        }
+}
+@media only screen and (max-width:345px){
+    .subscribe{
+        background-image:url(./image/subscribe.jpeg) ;
+        height: 500px;
+        background-size: cover;
+    }
+
+}

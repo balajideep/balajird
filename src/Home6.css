@@ -1,0 +1,203 @@
+.destination {
+    width: 93%;
+}
+.destination-width{
+     width: 60%;
+}
+.best-destinate{
+    padding-top: 40px;
+}
+
+.destination h5 {
+    font-size: 32px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: #FA8D25;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.destination h5{
+    
+    
+        position: relative;
+        animation-name: example7;
+        animation-duration:2s;
+        
+    }
+    @keyframes example7 {
+        from {bottom: -25px;}
+        to {bottom: 0px;}
+      } 
+
+
+.destination h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.destination p {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+
+.kings img{
+    height: 400px;
+}
+.best-destinate{
+    
+        position: relative;
+        animation-name: example5;
+        animation-duration:2s;
+        
+    }
+    @keyframes example5 {
+        from {bottom: -300px;}
+        to {bottom: 0px;}
+      } 
+      .best-destinate1{
+    
+        position: relative;
+        animation-name: example6;
+        animation-duration:4s;
+        
+    }
+    @keyframes example6 {
+        from {bottom: -100px;}
+        to {bottom: 0px;}
+      } 
+      .cardjing{
+        position: relative;
+      }
+   .cardpe{
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #FA8D25;
+    display: none;
+   }
+  /* .cardpe{
+    display: none;
+  }  
+  .cardjing:hover .cardpe{
+    display: block;
+    opacity: 0.5;
+  }   */
+
+@media only screen and (max-width:1024px){
+    .destination-width{
+        width: 90%;
+    }
+    .king1{
+        width: 50%;
+    }
+    .kings img{
+        height: 330px;
+    }
+    .king2{
+        width: 50%;
+    }
+    .king3{
+        width: 90%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    .king4{
+        width: 50%;
+    }
+    .king5{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:768px){
+
+
+.destination h5 {
+    font-size: 24px;
+    padding-top: 60px;
+
+}
+
+.destination h2 {
+    font-size: 24px;
+ 
+}
+.best-destinate{
+    padding-top: 25px;
+}
+
+}
+@media only screen and (max-width:767px){
+  
+    .destination {
+        width: 98%;
+    }
+    .destination-width{
+        width: 100%;
+   }
+    .kings img{
+        height: 280px;
+    }
+    .king1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .king2{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .king3{
+        width: 80%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    .king4{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .king5{
+        width: 80%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:500px){
+    .destination {
+        width: 100%;
+    }
+    .king1{
+        width: 97%;
+        margin: 0 auto;
+        
+    }
+    .kings img{
+        height: 250px;
+    }
+   
+    .king2{
+        width: 97%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .king3{
+        width: 97%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    .king4{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .king5{
+        width: 97%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+}

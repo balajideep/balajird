@@ -1,0 +1,1518 @@
+.ran{
+    height: 1270px;
+    width: 100%;
+    background-color:white;
+
+}
+.ram{
+    background-color:#041230;
+    height: 680px;
+    position: relative;
+}
+
+.tom1{
+    background-color:#041230;
+    height: 680px;
+    
+    /* width: 100%; */
+
+}
+.read{
+    padding-top: 160px;
+    /* padding-left: 0px; */
+    width: 87%;
+    
+    margin: 0 auto;
+    /* this is for animation */
+    position: relative;
+    animation: mymove 2s;
+}
+/* this is for animation */
+@keyframes mymove {
+    from {bottom: -300px;}
+    to {bottom: 0px;}
+  }
+
+.read h1{
+    font-size: 63px;
+    font-family:sans-serif;
+    color: #ffffff;
+}
+.read p{
+    font-family: sans-serif;
+    color:#A7ADBE
+}
+.Button2{
+    color: white;
+    background-color:#FA8D25;
+    padding: 14px 35px;
+    border-radius: 35px;
+    font-size: 14px;
+    position: relative;
+    animation-name: example2;
+    animation-duration:5s;
+}
+@keyframes example2 {
+    from {left: -200px;}
+    to {left: 0px;}
+  } 
+.Button2:hover{
+    color: black;
+    background-color:white;
+    -webkit-transform: translateY(1px);
+	transform: translateY(-5px);
+}
+.read a{
+    color:white;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 60px;
+    margin-left: 14px;
+    /* font-style: inherit; */
+   
+
+}
+.Bs-PlayCircle{
+    color: white;
+    background-color: orange;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.icon{
+    position: relative;
+    animation-name: example3;
+    animation-duration:5s;
+    
+}
+@keyframes example3 {
+    from {left: 200px;}
+    to {left: 0px;}
+  } 
+.Bs-PlayCircle:hover{
+    color: orange;
+    background-color: white;
+   
+    margin-left: 50px;
+    size: 3em;
+    
+}
+
+/* next column start */
+
+.tom2{
+     background-color: #041230;
+     /* width: 100%; */
+     height: 680px;
+    position: relative;
+    
+    
+}
+
+
+.img1 img{
+    position: relative;
+    width: 650px;
+    height: 530px;
+    top: 60px;
+    right: 30px;
+    z-index: 1;
+}
+.humm{
+
+    position: relative;
+    animation-name: example1;
+    animation-duration:2s;
+   
+}
+
+@keyframes example1 {
+    from {left: 300px;}
+    to {left: 0px;}
+  } 
+
+
+.round{
+    position: absolute;
+    height: 500px;
+    width: 510px;
+    background-color: orange;
+    border-radius: 100%;
+    top: 180px;
+    right: 33px;
+  
+    
+
+}
+
+/* next section start */
+
+
+.gogo{
+    background-color:white;
+    height: 590px;
+    width: 100%;
+    position: relative;
+}
+.go{
+    width: 85%;
+    background-color:white;
+
+    height: 500px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.go h3{
+    /* position: absolute; */
+    font-style: oblique;
+    color: #FA8D25;
+    font-family: sans-serif;
+    width: 80%;
+}
+.go h2{
+    color: black;
+    font-family: sans-serif;
+    font-size: 36px;
+    width: 100%;
+    font-weight: 50px;
+}
+.bt h4{
+   font-size: 18px;
+}
+.tb h4{
+    font-size: 18px;
+}
+.go p{
+    color: #646974;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.bt{
+   
+ 
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    
+}
+
+.go2{
+    margin-top: 23px;
+    height: 68px;
+    width: 66px;
+    background-color:#FA8D25;
+    border-radius: 10px;
+}
+.ippp{
+   
+   margin-left: 13px;
+   margin-top: 14px;
+    color: lightcyan;
+    
+   
+  
+}
+.tb{
+  
+   
+    position: absolute;
+    left: 90px;
+    top: 320px;
+}
+.go3{
+    margin-top: 50px;
+    height: 68px;
+    width: 66px;
+   
+    background-color: #041230;
+    border-radius: 10px;
+}
+.iccc{
+  
+   margin-left: 13px;
+   margin-top: 14px;
+    color: white;
+  
+}
+
+
+
+.goform1{
+    position: absolute;
+    display: block;
+    height: 630px;
+    width: 550px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 2px 40px 0 rgba(0, 0, 0, 0.04);
+    top: 560px;
+    right: 50px;
+    z-index: 3;
+   
+}
+.nextform{
+    position: absolute;
+    top: 30px;
+    left: 0px; 
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ input{
+    width: 80%;
+    padding: 12px;
+    margin: 0 auto;
+    color: lightslategrey;
+    border: 1px solid lightgrey;
+    
+   
+   
+}
+select{
+    width: 80%;
+    padding: 12px;
+    color: lightslategrey;
+    border: 1px solid lightgrey;
+} 
+
+.submit-book{
+    padding-left: 10px;
+}
+ .submit{
+    background-color: #FA8D25;
+    border-color: #FA8D25;
+    border-bottom: #FA8D25;
+    border-right: #FA8D25;
+    padding: 14px 45px;
+    border-radius: 35px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: white;
+    
+
+  
+ }
+ .submit:hover{
+    background-color: black;
+    border-color:black;
+    color: white;
+ }
+ .mi{
+    color: red;
+ }
+.gogo1{
+ background-color: white;
+}
+@media only screen and (max-width:1440px){
+    .img1 img{
+        position: absolute;
+        width: 600px;
+        height: 560px;
+        top: 60px;
+        right: 0px;
+        z-index: 1;
+    }
+}
+@media only screen and (max-width:1110px){
+    
+.img1 img{
+    position: absolute;
+    width: 630px;
+    height: 560px;
+    top: 60px;
+    right: 0px;
+    z-index: 1;
+}
+.round{
+    position: absolute;
+    height: 500px;
+    width: 510px;
+    background-color: orange;
+    border-radius: 100%;
+    top: 180px;
+    right: 33px;
+    /* top: 270px;
+    right: 20px; */
+
+    /* left: 740px; */
+    
+
+}
+.goform1{
+    position: absolute;
+    display: block;
+    height: 670px;
+    width: 45%;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02);
+    top: 560px;
+    right: 50px;
+    z-index: 2;
+   
+}
+.nextform{
+    position: absolute;
+    top: 30px;
+    left: 0px; 
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ input{
+    width: 80%;
+    padding: 15px;
+    margin: 0 auto;
+    color: lightslategrey;
+    border: 1px solid lightgrey;
+    
+   
+   
+}
+select{
+    width: 80%;
+    padding: 15px;
+    color: lightslategrey;
+    border: 1px solid lightgrey;
+} 
+ 
+
+}
+@media only screen and (max-width:1090px){
+    .img1 img{
+        position: absolute;
+        width: 580px;
+        height: 560px;
+        top: 60px;
+        right: 0px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width:1060px){
+
+
+    /* first column start */
+.Bs-PlayCircle{
+    color: white;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;   
+}
+.read a{
+    color:white;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 30px;
+    margin-left: 5px;
+    /* font-style: inherit; */
+}
+
+}
+@media only screen and (max-width:1024px){
+.ran{
+    height: 1840px;
+}
+    .tom1{
+        background-color:#041230;
+        height: 450px;
+        width: 100%;
+    
+    }
+    .read{
+        padding-top: 100px;
+        /* padding-left: 0px; */
+        width: 83%;
+        
+        margin: 0 auto;
+    
+    
+    }
+    .read h1{
+        
+        font-size: 63px;
+        font-family:sans-serif;
+        color: #ffffff;
+        text-align: center;
+    }
+    .read p{
+        font-family: sans-serif;
+        color:#A7ADBE;
+        text-align: center;
+    }
+
+    /* second colunm start */
+    .tom2{
+        background-color:#041230;
+       
+        height: 470px; 
+        width: 100%;    
+   }
+  .tom22{
+      background-color:#041230;
+      height: 470px;
+      width: 58%;
+      margin: 0 auto;
+      position: relative;
+      /* height: 500px;
+      width: 470x; */
+      
+   
+   
+  }
+  .img1 img{
+    position: absolute;
+    width: 560px;
+    height: 460px;
+    top: 10px;
+    right: 0px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.tom22 .round{
+    position:absolute;
+    height: 400px;
+    width: 360px;
+    background-color: orange;
+    border-radius: 100%;
+    top: 10px;
+    right: 40px;
+    
+    /* top: 140px;
+    right: 30px; */
+    
+}
+  /* second section */
+  .goform1{
+    /* position: absolute; */
+    display: block;
+    height: 600px;
+    width: 100%;
+    background-color:white;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02); */
+    top: 800px;
+    right: 30px;
+    z-index: 2;
+    margin: 0 auto;
+   
+}
+.nextform{
+    position: absolute;
+    top: 30px;
+    left: 0px; 
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ input{
+    width: 90%;
+    padding: 11px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    color: lightslategrey;
+   
+    
+}
+select{
+    width: 90%;
+    padding: 11px;
+    border: 1px solid lightgrey;
+    color: lightslategrey;
+} 
+
+
+ .submit{
+    background-color: #FA8D25;
+    border-color: #FA8D25;
+    border-bottom: #FA8D25;
+    border-right: #FA8D25;
+    padding: 15px 40px;
+    border-radius: 35px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: white;
+
+  
+ }
+ 
+  
+.gogo{
+    background-color:white;
+    height: 910px;
+    width: 100%;
+    position: relative;
+}
+.go{
+    width: 95%;
+   
+
+    height: 340px;
+    position: absolute;
+    top: 570px;
+    left: 30px;
+    margin: 0 auto;
+}
+
+.gogo1{
+    display: none;
+}
+
+
+.tb{
+  
+   
+    position: absolute;
+    left: 100px;
+    top: 240px;
+}
+.go2{
+    margin-top: 30px;
+    height: 68px;
+    width: 66px;
+    background-color:#FA8D25;
+    border-radius: 10px;
+}
+.bt{
+  
+   
+    position: absolute;
+    left: 100px;
+    top: 140px;
+}
+
+.go3{
+    margin-top: 30px;
+    height: 68px;
+    width: 66px;
+    background-color:#041230;
+    border-radius: 10px;
+}
+}
+@media only screen and (max-width:994px){
+
+ .ran{
+        height: 1920px;
+    }
+.go{
+    /* width: 96%; */
+   
+
+    height: 360px;
+    position: absolute;
+    top: 620px;
+    left: 15px;
+    margin: 0 auto;
+}
+.gogo{
+    background-color:white;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+}
+@media only screen and (max-width:898px){
+    .go h2{
+        color: black;
+        font-family: sans-serif;
+        font-size: 36px;
+        width: 100%;
+        font-weight: 300px;
+    }
+    .go p{
+        color: #646974;
+        font-size: 14px;
+        font-family: sans-serif;
+        width: 100%;
+    }
+ 
+    .bt{
+  
+        
+        position: absolute;
+        left: 90px;
+        top: 140px;
+    }
+      .tb{
+  
+      
+        position: absolute;
+        left: 90px;
+        top: 240px;
+    }
+}
+@media only screen and (max-width:786px){
+    .ran{
+        height: 1970px;
+    }
+    .gogo{
+        background-color:white;
+        height: 1130px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .go{
+      
+        position: absolute;
+        top: 620px;
+        left: 15px;
+        margin: 0 auto;
+    }
+    .bt{
+  
+       
+        position: absolute;
+        left: 95px;
+        top: 200px;
+    }
+      .tb{
+  
+      
+        position: absolute;
+        left: 95px;
+        top: 300px;
+    }
+    
+}
+@media only screen and (max-width:780px){
+  
+    .go{
+      
+    
+        height: 430px;
+        position: absolute;
+        top: 700px;
+        left: 15px;
+        margin: 0 auto;
+    }}
+    @media only screen and (max-width:698px){
+
+    }
+
+
+@media only screen and (max-width:698px){
+  
+    .go{
+     
+    
+        height: 420px;
+        position: absolute;
+        top: 580px;
+        left: 15px;
+        margin: 0 auto;
+    }
+    .gogo{
+        background-color:white;
+        height: 1000px;
+        width: 100%;
+        position: relative;
+    }
+   
+    
+  
+}
+@media only screen and (max-width:660px){
+  
+    .ran{
+        height: 1000px;
+    }
+    .go{
+      
+    
+        height: 330px;
+        position: absolute;
+        top: 620px;
+        left: 15px;
+        margin: 0 auto;
+    }
+    .gogo{
+        background-color:white;
+        height: 900px;
+        width: 100%;
+        position: relative;
+    }
+    .gogo1{
+        background-color:white;
+        height: 950px;
+        width: 100%;
+        position: relative;
+    }
+    .go h2{
+        font-size: 24px;
+    }
+    .bt{
+  
+      
+        position: absolute;
+        left: 95px;
+        top: 140px;
+    }
+      .tb{
+  
+      
+        position: absolute;
+        left: 95px;
+        top: 240px;
+    }
+    
+}
+@media only screen and (max-width:521px){
+  
+    .go h3{
+        color: black;
+        font-family: sans-serif;
+        font-size: 24px;
+        width: 100%;
+    }
+    .go p{
+        color: #646974;
+        font-size: 12px;
+        font-family: sans-serif;
+        width: 100%;
+    }
+    .go3.h4{
+        font-size: 8px;
+    }
+    .bt{
+  
+       
+        position: absolute;
+        left: 90px;
+        top: 165px;
+    }
+      .tb{
+  
+         position: absolute;
+        left: 90px;
+        top: 265px;
+    }
+   
+   
+}
+@media only screen and (max-width:426px){
+.bt{
+  
+  
+    position: absolute;
+    left: 90px;
+    top: 165px;
+}
+  .tb{
+
+ 
+     position: absolute;
+    left: 90px;
+    top: 260px;
+}
+.go h2{
+    font-size: 24px;
+}
+
+}
+@media only screen and (max-width:346px){
+  
+    .go h3{
+        color: black;
+        font-family: sans-serif;
+        font-size: 24px;
+        width: 100%;
+    }
+    .go p{
+        color: #646974;
+        font-size: 12px;
+        font-family: sans-serif;
+        width: 100%;
+    }
+    .tb .h4{
+        font-size: 8px;
+    }
+    .bt{
+  
+        height: 150px;
+        position: absolute;
+        left: 90px;
+        top: 185px;
+    }
+      .tb{
+  
+        height: 150px;
+         position: absolute;
+        left: 90px;
+        top: 290px;
+    } 
+    .go3{
+        margin-top: 40px;
+        height: 72px;
+        width: 66px;
+        background-color: #041230;
+        border-radius: 10px;
+    }
+   
+}
+@media only screen and (max-width:1011px){
+    .goform1{
+        position: absolute;
+        display: block;
+        height: 600px;
+        width: 100%;
+        background-color:white;
+        border-radius: 20px;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02); */
+        top: 800px;
+        right: 20px;
+        z-index: 2;
+        margin: 0 auto;
+       
+    }
+    .nextform{
+        position: absolute;
+        top: 30px;
+        left: 0px; 
+        width: 90%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+     input{
+        width: 90%;
+        padding: 11px;
+        margin: 0 auto;
+        border: 1px solid lightgrey;
+        color: lightslategrey;
+       
+        
+    }
+    select{
+        width: 90%;
+        padding: 11px;
+        border: 1px solid lightgrey;
+        color: lightslategrey;
+    } 
+}
+ @media only screen and (max-width:994px){
+    .goform1{
+        position: absolute;
+        /* display: block; */
+        height: 700px;
+        width: 100%;
+        background-color:white;
+        border-radius: 20px;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02); */
+        top: 760px;
+        left: 23px;
+        z-index: 2;
+       
+    }
+    .nextform{
+        /* position: absolute; */
+        top: 30px;
+        /* left: 20px;  */
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+     input{
+        width: 90%;
+        padding: 11px;
+        margin: 0 auto;
+        margin-top: 20px;
+       
+        
+    }
+    select{
+        width: 90%;
+        padding: 11px;
+    } 
+    
+}
+
+
+@media only screen and (max-width:780px){
+  
+ /* first column start*/
+
+ .ram{
+    background-color: #041230;
+    height: 460px;
+}
+
+ .tom1{
+    background-color:#041230;
+    height: 460px;
+    /* width: 100%; */
+
+}
+   .but{
+    width: 70%;
+    height: 300px;
+    /* text-align: center; */
+    margin: 0 auto;
+   }
+   .Button2{
+    color: white;
+    background-color:#FA8D25;
+    padding: 17px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-left: 14px;
+} 
+.Bs-PlayCircle{
+    color: white;
+    margin-left: 20px;
+    width: 55px;
+    height: 55px;   
+}
+
+.read h1{
+        
+    font-size: 36px;
+    font-family:sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.read p{
+    font-family: sans-serif;
+    color:#A7ADBE;
+    text-align: center;
+}
+.read a{
+    color:white;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+    line-height: 80px;
+    /* font-style: inherit; */
+}
+
+
+
+/* 2nd column start */
+
+.tom2{
+    background-color:#041230;
+   
+    height: 400px; 
+    width: 100%;    
+}
+
+.tom22{
+    background-color:#041230;
+    height: 400px;
+    width: 58%;
+    margin: 0 auto;
+    position: relative;
+    /* height: 500px;
+    width: 470x; */
+    
+ 
+ 
+}
+.img1 img{
+  position: absolute;
+  width: 480px;
+  height: 360px;
+  top: 5px;
+  right: 0px;
+  margin: 0 auto;
+  z-index: 1;
+}
+.tom22 .round{
+  position:absolute;
+  height: 360px;
+  width: 360px;
+  background-color: orange;
+  border-radius: 100%;
+  top: 0px;
+  right: 0px;
+  
+  /* top: 140px;
+  right: 30px; */
+  
+}
+
+
+  /* second section */
+  .goform1{
+    position: absolute;
+    /* display: block; */
+    height: 700px;
+    width: 100%;
+    background-color:white;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02); */
+    top: 760px;
+    left: 23px;
+    z-index: 2;
+   
+}
+.nextform{
+    position: absolute;
+    top: 30px;
+    /* left: 20px;  */
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ input{
+    width: 90%;
+    padding: 11px;
+    margin: 0 auto;
+    margin-top: 20px;
+   
+    
+}
+select{
+    width: 90%;
+    padding: 11px;
+} 
+
+}
+
+@media only screen and (max-width:724px){
+    .ran{
+        height: 1670px;
+    }
+    .tom1{
+        background-color:#041230;
+        height: 550px;
+    }
+    .but{
+        width: 48%;
+        height: 300px;
+        /* text-align: center; */
+        margin: 0 auto;
+       }
+       .Button2{
+        color: white;
+        background-color:#FA8D25;
+        padding: 13px 45px;
+        border-radius: 30px;
+        font-size: 14px;
+        margin-left: 14px;
+    } 
+    .tom2{
+        
+        height: 760px;
+       position: relative;
+       display: none;
+       
+   }
+    .Bs-PlayCircle{
+        color: white;
+        margin-left: 10px;
+        width: 47px;
+        height: 47px;   
+    }
+    
+  /* second section */
+  .goform1{
+    position: absolute;
+    /* display: block; */
+    height: 700px;
+    width: 90%;
+    background-color:white;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02); */
+    top: 470px;
+    left: 23px;
+    z-index: 2;
+   
+}
+.nextform{
+    position: absolute;
+    top: 30px;
+    /* left: 20px;  */
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ input{
+    width: 90%;
+    padding: 11px;
+    margin: 0 auto;
+    margin-top: 20px;
+   
+    
+}
+select{
+    width: 90%;
+    padding: 11px;
+} 
+    
+}
+@media only screen and (max-width:699px){
+    .tom1{
+        background-color:#041230;
+        height: 700px;
+    }
+    .tom2{
+        
+        height: 760px;
+       position: relative;
+       display: none;
+       
+   }
+   .goform1{
+    position: absolute;
+    /* display: block; */
+    height: 700px;
+    width: 90%;
+    background-color:white;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02); */
+    top: 510px;
+    left: 23px;
+    z-index: 2;
+   
+}
+}
+@media only screen and (max-width:660px){
+    /* first column start */
+        .tom1{
+            background-color:#041230;
+            height: 650px;
+            /* width: 100%; */
+        
+        }
+        .ran{
+            height: 1620px;
+        }
+    } 
+    @media only screen and (max-width:586px){
+    .but{
+        width: 50%;
+        height: 300px;
+        /* text-align: center; */
+        margin: 0 auto;
+       }
+       .Button2{
+        color: white;
+        background-color:#FA8D25;
+        padding: 13px 50px;
+        border-radius: 30px;
+        font-size: 14px;
+        margin-left: 14px;
+    } 
+}
+
+    @media only screen and (max-width:560px){
+
+        .ran{
+            height: 1630px;
+        }        
+.goform1{
+    position: absolute;
+    top: 540px;
+}
+.go{
+   
+
+    height: 340px;
+    position: absolute;
+    top: 630px;
+    left: 15px;
+    margin: 0 auto;
+}
+.gogo{
+    background-color:white;
+    height: 970px;
+    width: 100%;
+    position: relative;
+}
+
+
+    }  
+@media only screen and (max-width:524px){
+/* first column start */
+.ran{
+    height: 1730px;
+}
+    .tom1{
+        background-color:#041230;
+        height: 690px;
+        /* width: 100%; */
+    
+    }
+    .gogo{
+        height: 1030px;
+    }
+    .go{
+   
+    
+        height: 350px;
+        position: absolute;
+        top: 670px;
+        left: 15px;
+        margin: 0 auto;
+    }
+} 
+@media only screen and (max-width:430px){
+    /* first column start */
+
+
+        .tom1{
+            background-color:#041230;
+            height: 750px;
+            /* width: 100%; */
+        
+        }
+
+        .but{
+            width: 60%;
+            height: 100px;
+            /* text-align: center; */
+            margin: 0 auto;
+           }
+           .Button2{
+            color: white;
+            background-color:#FA8D25;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 14px;
+            margin-left: 0px;
+        } 
+    
+        .Bs-PlayCircle{
+            color: white;
+            margin-left: 0px;
+            width: 45px;
+            height: 45px;   
+        }
+
+        .goform1{
+            position: absolute;
+            /* display: block; */
+            height: 700px;
+            width: 90%;
+            background-color:white;
+            border-radius: 20px;
+            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.02); */
+            top: 500px;
+            left: 22px;
+            z-index: 2;
+           
+        }
+        .nextform{
+            position: absolute;
+            top: 30px;
+            /* left: 20px;  */
+            width: 100%;
+        
+            text-align: center;
+        }
+        
+         input{
+            width: 90%;
+            padding: 11px;
+            margin: 0 auto;
+            margin-top: 20px;
+           
+            
+        }
+        select{
+            width: 90%;
+            padding: 11px;
+        } 
+        .gogo{
+            
+            height: 1010px;
+        
+        }
+    
+        .go{
+          
+            height: 390px;
+            position: absolute;
+            top: 620px;
+            left: 15px;
+            margin: 0 auto;
+        }
+        
+    } 
+    @media only screen and (max-width:426px){
+    .gogo{
+            
+        height: 1000px;
+    
+    }
+
+    .go{
+     
+    
+        height: 380px;
+        position: absolute;
+        top: 620px;
+        left: 15px;
+        margin: 0 auto;
+    }
+    .ran{
+        height: 1730px;
+    }
+
+} 
+@media only screen and (max-width:348px){
+   
+    .gogo{
+            
+        height: 1200px;
+    
+    }
+
+    .go{
+     
+    
+        height: 460px;
+        position: absolute;
+        top: 620px;
+        left: 15px;
+        margin: 0 auto;
+    }
+  
+
+} 
+
+
+
+    @media only screen and (max-width:376px){
+        /* first column start */
+      
+            .tom1{
+                background-color:#041230;
+                height: 810px;
+                /* width: 100%; */
+            
+            }
+        
+    
+        .go{
+          
+            height: 350px;
+            position: absolute;
+            top: 620px;
+            left: 15px;
+            margin: 0 auto;
+        } 
+        .goform1{
+            position: absolute;
+            /* display: block; */
+            height: 700px;
+            width: 90%;
+            background-color:white;
+            border-radius: 20px;
+            top: 560px;
+            left: 16px;
+            z-index: 2;
+           
+        }
+        .but{
+            width: 60%;
+        }
+        .Button2{
+            color: white;
+            background-color:#FA8D25;
+            padding: 14px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            margin-left: 0px;
+        } 
+    
+        .Bs-PlayCircle{
+            color: white;
+            margin-left: 0px;
+            width: 42px;
+            height: 42px;   
+        }
+    }
+
+    @media only screen and (max-width:426px){  
+       .ran{
+        height: 1640px;
+       }
+        .gogo{
+            
+            height: 880px;
+        
+        }
+    
+        .go{
+          
+            height: 300px;
+            position: absolute;
+            top: 500px;
+            left: 15px;
+            margin: 0 auto;
+        }   
+       
+        .tom1{
+            background-color:#041230;
+            height: 750px;
+            /* width: 100%; */
+        
+        }
+        
+
+}
+@media only screen and (max-width:376px){
+    .ran{
+        height: 1680px;
+       }
+.gogo{
+            
+    height: 920px;
+
+}
+
+.go{
+  
+    height: 300px;
+    position: absolute;
+    top: 540px;
+    left: 15px;
+    margin: 0 auto;
+}   
+}
+@media only screen and (max-width:326px){
+    .Button2{
+        color: white;
+        background-color:#FA8D25;
+        padding: 14px 20px;
+        border-radius: 30px;
+        font-size: 12px;
+        margin-left: 0px;
+    } 
+
+    .Bs-PlayCircle{
+        color: white;
+        margin-left: 0px;
+        width: 40px;
+        height: 40px;   
+    }
+    .read a{
+        color:white;
+        font-size: 12px;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-weight: 60px;
+        margin-left: 6px;
+        /* font-style: inherit; */
+       
+    
+    }
+  }

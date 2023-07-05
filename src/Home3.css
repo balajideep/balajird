@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.rightmain{
+    z-index: 1;
+}
+.rightmain1{
+    background-color: #041230;
+}
+.right img{
+    height: 800px;
+    width: 100%;
+   padding-left: 0px;
+}
+.right{
+    padding-right: 0px;
+   
+}
+.right1{
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.right2{
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.right1 h2{
+    font-size: 36px;
+    color: white;
+}
+.right1 p{
+    color: #A7ADBE;
+}
+.right1 h3{
+    font-size: 32px;
+    color: #FA8D25;
+}
+.right1 h3{
+    position: relative;
+    animation-name: example9;
+    animation-duration:2s;
+   
+}
+
+@keyframes example9 {
+    from {right: -300px;}
+    to {right: 0px;}
+  } 
+
+
+.right2 h4{
+    font-size: 22px;
+    color: white;
+}
+.right2 p{
+    font-size: 16px;
+    color: #A7ADBE;
+}
+.meeting{
+    padding-left: 10px;
+}
+
+@media only screen and (max-width:1024px){
+    .right1{
+        padding-top: 50px;
+       
+    }
+    .right1 h2{
+        font-size: 34px;
+    }
+    .right1 h3{
+        font-size: 30px;
+        color: #FA8D25;
+    }
+    .right2 h4{
+        font-size: 18px;
+    }
+    .right2 p{
+        font-size: 16px;
+        color: #A7ADBE;
+    }
+    .rightmain{
+        width: 100%;
+    }
+    .rightmain1{
+        width: 100%;
+    }
+    .right1{
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+    .right2{
+        width: 100%;
+       
+        margin: 0 auto;
+    }
+    .right img{
+        height: 600px;
+        width: 100%;
+       padding-left: 0px;
+    }
+    .meeting{
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width:575px){
+.right1{
+    padding-left: 20px;
+}
+.right img{
+  
+    height: 400px;
+}
+}
+@media only screen and (max-width:430px){
+.right1 h3{
+    font-size: 24px;
+}
+.right1 h2{
+    font-size: 24px;
+}
+}
+@media only screen and (max-width:768px){
+    .right1 h3{
+        font-size: 24px;
+    }
+    .right1 h2{
+        font-size: 24px;
+    }
+    }
+
+@media only screen and (max-width:356px){
+   
+    .right img{
+       
+        height: 300px;
+    }
+}
+@media only screen and (max-width:767px){
+   .right{
+    padding-left: 0px;
+   }
+}

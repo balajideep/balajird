@@ -1,0 +1,390 @@
+ .count{
+    width: 50%;
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.count h2{
+    font-size: 36px;
+    font-family: sans-serif;
+}
+.count h3{
+    font-size: 32px;
+    color: #FA8D25;
+    font-family: sans-serif;
+}
+.count h3{
+    
+        position: relative;
+        animation-name: example8;
+        animation-duration:2s;
+        
+    }
+    @keyframes example8 {
+        from {bottom: -25px;}
+        to {bottom: 0px;}
+      } 
+
+ .count p{
+    font-size: 16px;
+    color: #646974;
+}
+ .carding1{
+    border-color: white; 
+}
+ .cardring1{
+    position: relative;
+    
+}
+ .carding2{
+    border-color: white;
+    margin-top: 80px;
+}
+
+.cardbox{
+    /* position: relative; */
+    height: 100px;
+    width: 100px;
+    background-color: #FA8D25;
+    padding-top: 20px;
+    border-radius: 10px;
+   
+}
+ .cardbox1{
+    position: absolute;
+    height: 36px;
+    width: 40px;
+    background-color: black;
+    top: 30px;
+    left: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    line-height: 34px;
+}
+ .nice1{
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    height: 50px;
+    width: 120px;
+    z-index: 1;
+    opacity: 0.5;
+}
+.nice{
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    height: 50px;
+    width: 120px;
+    z-index: 1;
+    opacity: 0.5;
+    
+}
+.cardred{
+    position: relative;
+    animation-name: example4;
+    animation-duration:2s;
+}
+@keyframes example4 {
+    from {bottom: -300px;}
+    to {bottom: 0px;}
+  }
+.cardred h5{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.cardred p{
+    font-size: 16px;
+    color: #646974;
+    font-family: sans-serif;
+}
+.horizontal-line{
+    padding-top: 50px;
+   
+}
+
+.flight img{
+    height: 85px;
+    width: 85px;
+    padding-left: 40px;
+}
+
+.flights h3{
+    padding-top: 21px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.flight-page{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 90px;
+    margin: 0 auto;
+}
+.flight-row{
+    opacity: 0.5;
+}
+.flight-row:hover{
+    opacity: 1;
+}
+
+@media only screen and (max-width:1100px){
+    .count{
+      margin-top: 10px;
+    }
+    .fight{
+        display: none;
+    }
+  }
+@media only screen and (max-width:1024px){
+.count{
+    width: 80%;
+}   
+.nice1{
+    display: none;
+} 
+.carding2{
+   
+    margin-top: 0px;
+}
+.nice{
+    position: absolute;
+    top: 25px;
+     left: 380px;
+    height: 55px;
+    width: 140px; 
+      
+}
+
+.north{
+    width: 50%;
+}
+.south{
+    width: 50%;
+}
+.cardbox1{
+    position: absolute;
+    height: 36px;
+    width: 40px;
+    top: 30px;
+    left: 160px;
+    
+}
+}
+@media only screen and (max-width:991px){
+    .nice{
+        position: absolute;
+        top: 25px;
+         left: 270px;
+        height: 40px;
+        width: 140px; 
+          
+    }
+    .cardbox1{
+        position: absolute;
+        height: 36px;
+        width: 40px;
+        top: 30px;
+        left: 100px;
+       
+    }
+}
+@media only screen and (max-width:767px){
+    .count{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }  
+    .count h2{
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+    .count h3{
+        font-size: 24px;
+        color: #FA8D25;
+        font-family: sans-serif;
+    }
+     .count p{
+        font-size: 14px;
+        color: #646974;
+    }
+    .nice{
+        display: none;
+    }
+    .north{
+        width: 100%;
+    }
+    .south{
+        width: 100%;
+    }
+    .cardred h5{
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    .cardred p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:450px){
+    .cardbox1{
+        position: absolute;
+        height: 36px;
+        width: 40px;
+        top: 30px;
+        left: 140px;
+        text-align: center;
+       
+    }
+}
+@media only screen and (max-width:426px){
+   
+    .cardbox1{
+        position: absolute;
+        height: 36px;
+        width: 40px;
+        top: 30px;
+        left: 130px;
+        
+       
+    }
+}
+@media only screen and (max-width:376px){
+   
+    .cardbox1{
+        position: absolute;
+        height: 36px;
+        width: 40px;
+        top: 30px;
+        left: 105px;
+        
+       
+    }
+}
+@media only screen and (max-width:321px){
+   
+    .cardbox1{
+        position: absolute;
+        height: 36px;
+        width: 40px;
+        top: 30px;
+        left: 80px;
+        
+       
+    }
+}
+@media only screen and (max-width:1200px){
+.flights h3{
+    padding-top: 21px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.flight-page{
+    width: 100%;
+    padding-left: 40px;
+}
+}
+
+   
+        @media only screen and (max-width:1024px){
+            .flight-page{
+                width: 94%;
+                padding-top: 30px;
+                padding-left: 50px;
+                margin: 0 auto;
+            }
+            .flights h3{
+                padding-top: 13px;
+                padding-left: 10px;
+                font-size: 22px;
+                font-family: sans-serif;
+            }
+           
+            .flight img{
+                height: 60px;
+                width: 60px;
+                padding-left: 60px;
+            }
+           
+            }
+          
+            @media only screen and (max-width:768px){
+                .flight-page{
+                    width: 92%;
+                    padding-top: 30px;
+                    
+                    margin: 0 auto;
+                }
+                .flight img{
+                    height: 50px;
+                    width: 50px;
+                    padding-left: 10px;
+                }
+                .flights h3{
+                    padding-top: 12px;
+                    padding-left: 15px;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                }
+            }
+            @media only screen and (max-width:430px){
+                .flight-page{
+                    width: 98%;
+                    padding-top: 30px;
+                   
+                    margin: 0 auto;
+                }
+                .flight img{
+                    height: 63px;
+                    width: 63px;
+                    padding-left: 30px;
+                }
+                .flights h3{
+                    padding-top: 16px;
+                    padding-left: 20px;
+                    font-size: 24px;
+                    font-family: sans-serif;
+                }
+               
+            }
+            @media only screen and (max-width:378px){
+                .flight-page{
+                    width: 98%;
+                    padding-top: 30px;
+                    padding-left: 35px;
+                    margin: 0 auto;
+                }
+                .flight img{
+                    height: 55px;
+                    width: 55px;
+                    padding-left: 30px;
+                }
+                .flights h3{
+                    padding-top: 12px;
+                    padding-left: 15px;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                }
+               
+            }
+            @media only screen and (max-width:330px){
+                .flight-page{
+                    width: 98%;
+                    padding-top: 30px;
+                    padding-left: 20px;
+                    margin: 0 auto;
+                }
+                .flight img{
+                    height: 44px;
+                    width: 44px;
+                    padding-left: 30px;
+                }
+                .flights h3{
+                    padding-top: 8px;
+                    padding-left: 10px;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                }
+               
+            }

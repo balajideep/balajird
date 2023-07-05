@@ -1,0 +1,277 @@
+.footer1{
+    background-color: #041230;
+    height: 530px;
+}
+.maker{
+    padding-top: 100px;
+}
+
+.footer1 img{
+    height: 150px;
+    width: 180px;
+    
+}
+.footer1 p{
+    color:#A7ADBE;
+    text-align: left;
+
+}
+.footer1 h4{
+    color:white;
+    font-size: 18px;
+}
+.rifel p{
+    font-size: 16px;
+}
+.rip{
+    width: 90%;
+}
+
+.rifel{
+    padding-left: 140px;
+}
+.ribe{
+    padding-left: 50px;
+}
+.cover1{
+    padding-top: 0px;
+    padding-left: 60px;
+}
+.cov1 a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+.cov1 a:hover{
+    color:#FA8D25;  
+}
+.cov2 a:hover{
+    color:#FA8D25;  
+}
+.cov2 a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.white-change{
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.bookdown{
+    padding-top: 40px;
+    width: 95%;
+}
+.mail{
+        padding-left: 5px;
+        color: yellow;
+        border: 2px solid  #FA8D25;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        background-color: #FA8D25;
+        text-align: center;
+        padding-top: 3px;
+        
+    
+}
+
+.mail-icon{
+    height: 25px;
+    width: 25px;
+    
+}
+.mailing{
+    padding-top: 5px;
+}
+.facebook{
+
+    
+    border: 2px solid #1C2648;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #1C2648;
+    text-align: center;
+    padding-top: 3px; 
+
+}
+
+.face button:hover{
+    background-color: #FA8D25;
+    height: 37px;
+    width: 37px;
+}
+.facebook-size{
+    height: 23px;
+    width: 20px;
+    
+}
+.pay-amount{
+    height: 25px;
+    width: 35px;
+    text-align: center;
+    line-height: 18px;
+    background-color:#FA8D25;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.pay-amount:hover{
+    background-color: white;
+}
+
+
+@media only screen and (max-width:1024px){
+    .footer1{
+        background-color: #041230;
+        height: 930px;
+    }
+    .footer1 img{
+        height: 230px;
+        width: 250px;
+    }
+    .rifel{
+        padding-left: 10px;
+        width: 50%;
+    } 
+    .ribe{
+        width: 50%;
+        padding-left: 30px;
+    }
+    .cover1{
+        width: 50%;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    .cover2{
+        width: 50%;
+        
+    }
+    .cov1 {
+        padding-top: 30px;
+    }
+    .cov2 {
+        padding-top: 60px;
+    }
+    .holiday1{
+        width: 50%;
+        padding-left: 10px;
+    }
+    .holiday2{
+        width: 50%;
+    }
+    .holiday3{
+        width: 50%;
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    .holiday4{
+        width: 50%;
+        padding-top: 30px;
+        
+    }
+}
+@media only screen and (max-width:767px){
+    .maker{
+        padding-top: 30px;
+    }
+    .footer1{
+        background-color: #041230;
+        height: 1450px;
+    }
+    .rifel{
+        padding-left: 25px;
+        padding-top: 30px;
+        width: 100%;
+    } 
+    .footer1 img{
+        height: 250px;
+        width: 270px;
+    }
+    .ribe{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .cover1{
+        width: 100%;
+         padding-top: 0px;
+         padding-left: 25px;
+    }
+    .cover2{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 25px;
+
+    }
+    .cov2 {
+        padding-top: 20px;
+    }
+    .holiday1{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .holiday2{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .holiday3{
+        width: 55%;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .holiday4{
+        width: 55%;
+        padding-top: 20px;
+        padding-left: 0px;
+       
+    }
+  
+    
+   
+}
+@media only screen and (max-width:512px){
+    .footer1{
+        background-color: #041230;
+        height: 1400px;
+    }
+    .footer1 img{
+        height: 180px;
+        width: 200px;
+    }
+    .holiday3{
+        width: 90%;
+        padding-top: 20px
+    }
+    .holiday4{
+        width: 90%;
+        padding-top: 20px;
+        padding-left: 0px;
+       
+    }
+
+    .pay-amount{
+        height: 25px;
+        width: 30px;
+        text-align: center;
+        line-height: 5px;
+        background-color:#FA8D25;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width:376px){
+    .footer1 img{
+        height: 160px;
+        width: 180px;
+    }
+}
+@media only screen and (max-width:321px){
+    .footer1 img{
+        height: 140px;
+        width: 150px;
+    }
+}
+   
